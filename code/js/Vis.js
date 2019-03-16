@@ -22,7 +22,7 @@ console.log("Print SVG: " + svg);
 svg.call(tip); 
 
 // draw the initial circles 
-var path = "https://github.mit.edu/pages/6894-sp19/Journey-Ahead/data/"
+var path = "https://kanguyn.github.io/Interactive-Data-Visualization-MBTA-airbnb/data/"
 d3.csv(path + "count_listings_stations.csv", function(error, data) {
         if (error) {
         return console.warn(error);

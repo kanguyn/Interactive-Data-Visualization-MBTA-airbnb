@@ -1,4 +1,4 @@
-var path = "https://github.mit.edu/pages/6894-sp19/Journey-Ahead/data/"
+var path = "https://kanguyn.github.io/Interactive-Data-Visualization-MBTA-airbnb/data/"
 
 var price_min = $("#price_min").val();
 var price_max = $("#price_max").val();
