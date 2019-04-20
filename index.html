@@ -84,22 +84,18 @@
                 // gv.update();
             }
             var dataLoaded = function(error,_mapData,_filterData){
-                console.log("In dataLoaded function");
                 mapData = _mapData;
                 filterData = _filterData.filter(function (d) { 
                     return (d.closest_station_1km != ""); });
                 fv = new FilterVis('#FilterVis',mapData, filterData);
-                console.log("filterData after queuing and loading: ", filterData);
                 // gv = new GroupVis('#GroupVis',mapData,filterData);
             }
             var path = "https://kanguyn.github.io/Interactive-Data-Visualization-MBTA-airbnb/data/";
             var startHere = function(){
-                console.log("In startHere function: ");
                 var q = d3.queue();
                 q.defer(d3.csv, path + "count_listings_stations.csv")
                 .defer(d3.csv, path + "listings_summary_w_stations.csv")
                 .await(dataLoaded); // Call dataLoaded function
-                console.log("end call to dataLoaded function and end of startHere function");
            }
            startHere()
         </script>
