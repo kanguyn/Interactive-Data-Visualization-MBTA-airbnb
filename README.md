@@ -2,6 +2,8 @@
 ----------
 Work from MIT 6.894 Interactive Data Visualization course
 ----------
+Link to the visualization website:
+[https://kanguyn.github.io/Interactive-Data-Visualization-MBTA-airbnb/](https://kanguyn.github.io/Interactive-Data-Visualization-MBTA-airbnb/)
 
 This visualization shows a map of the Boston T-stop and all Airbnb listings within a walkable 1,000-meter radius around any given T-stop. You can mouse over any given T-stop and see the number of Airbnb listings and their average price based on your selection criterion. Additionally, the size of the circles reflect the magnitude of the number of Airbnb listings that fulfill the selected criterion. Through this interactive visualization, you can actually identify patterns and draw some inference from the data, such as the correlation between location in the city and Airbnb pricing. Another example would be the correlation between concentration of Airbnb listings and tourist attractions.
 
